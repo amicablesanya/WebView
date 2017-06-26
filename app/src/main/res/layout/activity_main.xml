@@ -1,0 +1,87 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+
+    <EditText
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter URL"
+        android:id="@+id/gg"
+        android:padding="25dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_weight="0.5"
+        android:src="@drawable/se"
+        android:id="@+id/search"
+        android:onClick="test"
+        android:padding="2dp"
+        />
+   </LinearLayout>
+
+
+    <WebView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:id="@+id/wv">
+
+
+    </WebView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/fb"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="0.25"
+            android:onClick="test"
+            android:padding="4dp"
+            android:src="@drawable/fb" />
+
+        <ImageView
+            android:id="@+id/gm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="test"
+            android:padding="4dp"
+            android:src="@drawable/gmail" />
+
+        <ImageView
+            android:id="@+id/tw"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:onClick="test"
+            android:padding="4dp"
+            android:src="@drawable/twitterb" />
+
+        <ImageView
+            android:id="@+id/html"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25"
+            android:padding="4dp"
+            android:src="@drawable/ytube" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
